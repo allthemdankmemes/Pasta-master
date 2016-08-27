@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:id="@+id/drawer">
-
+    android:id="@+id/drawer"
+    app:layout_behavior="com.fabian.pasta.SrollAwareFABBehavior">
 
 
     <ListView
@@ -28,9 +28,10 @@
             android:layout_alignParentRight="true"
             android:src="@drawable/ic_add_white_24dp"
             android:onClick="addItems"
-            app:layout_behavior="com.fabian.pasta.ScrollAwareFABBehavior"
+            app:layout_behavior="com.fabian.pasta.SrollAwareFABBehavior"
             app:fabSize="normal"
-            android:background="@drawable/ripple_effect" />
+            android:background="@drawable/ripple_effect"
+            app:pressedTranslationZ="12dp"/>
 
     </RelativeLayout>
 

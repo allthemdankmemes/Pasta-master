@@ -29,7 +29,6 @@
             android:textSize="18sp"
             android:text="You can add a new pasta by pressing this button. There is no limit to the length, the pasta can be as long as you want."
             android:textIsSelectable="true"
-            android:textColor="#212121"
             style="@style/Base.TextAppearance.AppCompat.Body2"/>
 
         <android.support.design.widget.FloatingActionButton
@@ -71,7 +70,6 @@
             android:textSize="18sp"
             android:text="You can delete a pasta by pressing this button."
             android:textIsSelectable="true"
-            android:textColor="#212121"
             style="@style/Base.TextAppearance.AppCompat.Body2"/>
 
         <TextView
@@ -87,7 +85,6 @@
             android:textSize="18sp"
             android:text="You can copy a pasta by pressing this button."
             android:textIsSelectable="true"
-            android:textColor="#212121"
             style="@style/Base.TextAppearance.AppCompat.Body2"/>
 
         <android.support.design.widget.FloatingActionButton
@@ -127,7 +124,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="version 0.0.2"
+        android:text="version 0.0.3"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true">
     </TextView>

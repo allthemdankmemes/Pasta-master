@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by fabian on 26.08.16.
+ * Created by fabian on 27.08.16.
  */
 public class ActivityHot extends Activity{
     /** Called when the activity is first created. */

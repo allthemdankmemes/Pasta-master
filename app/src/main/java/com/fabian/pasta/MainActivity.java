@@ -11,8 +11,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
@@ -20,7 +22,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.app.NotificationCompat;
+import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -48,9 +52,11 @@ public class MainActivity extends AppCompatActivity {
     private ListView mTaskListView;
     private ArrayAdapter<String> mAdapter;
     private static final Random random = new Random();
+    private int mThemeId = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -173,6 +179,20 @@ public class MainActivity extends AppCompatActivity {
                 this.startActivity(intent3);
                 break;
 
+            case R.id.menu_night_mode_system:
+                setTheme(R.style.AppTheme_Green);
+                setContentView(R.layout.activity_theme);
+                break;
+            case R.id.menu_night_mode_day:
+                setNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                break;
+            case R.id.menu_night_mode_night:
+                setNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                break;
+            case R.id.menu_night_mode_auto:
+                setNightMode(AppCompatDelegate.MODE_NIGHT_AUTO);
+                break;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -185,8 +205,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navfavorites(MenuItem item){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, ActivityUnicode.class);
         this.startActivity(intent);
+    }
+
+    private void setNightMode(@AppCompatDelegate.NightMode int nightMode) {
+        AppCompatDelegate.setDefaultNightMode(nightMode);
+
+        if (Build.VERSION.SDK_INT >= 11) {
+            recreate();
+        }
     }
 
 }
