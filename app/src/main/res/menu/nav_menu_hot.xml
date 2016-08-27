@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_stars_white_24dp"
+            android:title="Favorites"
+            android:onClick="navfavorites"/>
+        <item
+            android:id="@+id/nav_hot"
+            android:icon="@drawable/ic_whatshot_white_24dp"
+            android:title="Hot"
+            android:onClick="navhot"/>
+        <item
+            android:id="@+id/nav_unicodes"
+            android:icon="@drawable/ic_format_underlined_white_24dp"
+            android:title="Unicodes" />
+    </group>
+    <item android:title="Mood/Reactions"
+        android:icon="@drawable/ic_insert_emoticon_white_24dp">
+        <menu>
+            <item
+                android:icon="@drawable/ic_sentiment_satisfied_white_24dp"
+                android:title="Positive" />
+            <item
+                android:icon="@drawable/ic_sentiment_neutral_white_24dp"
+                android:title="Neutral" />
+            <item
+                android:icon="@drawable/ic_sentiment_dissatisfied_white_24dp"
+                android:title="Negative" />
+            <item
+                android:icon="@drawable/ic_thumb_up_white_24dp"
+                android:title="Upvote" />
+            <item
+                android:icon="@drawable/ic_thumb_down_white_24dp"
+                android:title="Downvote" />
+            <item
+                android:icon="@drawable/ic_pan_tool_white_24dp"
+                android:title="Stop" />
+        </menu>
+    </item>
+    <item android:title="Specific Topics"
+        android:icon="@drawable/ic_important_devices_white_24dp">
+        <menu>
+            <item
+                android:icon="@drawable/ic_face_white_24dp"
+                android:title="Identification" />
+            <item
+                android:icon="@drawable/ic_cake_white_24dp"
+                android:title="Congratulations" />
+            <item
+                android:icon="@drawable/ic_record_voice_over_white_24dp"
+                android:title="Shitposts" />
+            <item
+                android:icon="@drawable/ic_child_care_white_24dp"
+                android:title="Trolls" />
+            <item
+                android:icon="@drawable/ic_favorite_white_24dp"
+                android:title="Love" />
+            <item
+                android:icon="@drawable/ic_videogame_asset_white_24dp"
+                android:title="Games" />
+            <item
+                android:icon="@drawable/ic_pets_white_24dp"
+                android:title="Animals" />
+            <item
+                android:icon="@drawable/ic_note_white_24dp"
+                android:title="Stories" />
+            <item
+                android:icon="@drawable/ic_motorcycle_white_24dp"
+                android:title="Badass" />
+            <item
+                android:icon="@drawable/ic_bug_report_white_24dp"
+                android:title="Nerdy" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pasta</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="addpasta">Füge eine neue Pasta hinzu</string>
+    <string name="add">Hinzufügen</string>
+    <string name="copy0">Yammy!</string>
+    <string name="copy1">Lecker!</string>
+    <string name="copy11">Wenn meine Pasta🍝🍴🍝🍅und meine Freundin👸🏼😍 beide ertränken😱🌊 , du weißt wie es läuft💯😎</string>
+    <string name="copy12">Ein echt schönes kleines Dessert.</string>
+    <string name="copy13">Perfekte Mischung aus Sauce und Rotforelle. Mmmmhmmm</string>
+    <string name="copy14">Sieht super aus! Gute Arbeit! Wie ist das Rezept für die Sauce?</string>
+    <string name="copy10">Einmal wollte ich es ernsthaft kochen, aber ich realisiert, wie sehr ich Gemüse verachte.</string>
+    <string name="copy15">Bei einem Curry Kampf setze ich mein Geld auf Thai, jedes Mal</string>
+    <string name="copy19">Avocado, Wegerich und Empanada? Ich bin dabei!</string>
+    <string name="copy2">gute Pasta gUuTE pAstaA</string>
+    <string name="copy20">Ich würde Steak hinzufügen</string>
+    <string name="copy21">Armenier nennen das Manti</string>
+    <string name="copy22">Das ist mächtig! Guten Appetit!</string>
+    <string name="copy23">Ein schönes Mahl für einen schönen Tag.</string>
+    <string name="copy24">Es hört sich erst nach einem Frevel an, aber Sojasauce zusammen mit Butter ist glorreich.</string>
+    <string name="copy25">Nah, das ist eine gute Suppe. Großartig mit Reis und etwas Bachan.</string>
+    <string name="copy26">Ich habe schon viel Takoyaki gegessen. Dieser ist wunderbar.</string>
+    <string name="copy27">Wäre bestimmt gut mit fruchtigem Cream Cheese. Oder etwas Säure.</string>
+    <string name="copy28">"Darf ich fortfahren und deine Aromasphere verwöhnen?"</string>
+    <string name="copy5">Toller Nachgeschmack!</string>
+    <string name="copy6">Sieht sehr gut aus, schmeckt es auch so gut?</string>
+    <string name="copy8">Einfach und lecker</string>
+    <string name="copy9">Kein Pfannekuchen? Pfannenkuchen und Eier sind das Beste.</string>
+    <string name="help">Hilfe</string>
+    <string name="notification">Pasta Zeit</string>
+    <string name="settings">Einstellungen</string>
+    <string name="theme">Designanpassung</string>
+</resources>
