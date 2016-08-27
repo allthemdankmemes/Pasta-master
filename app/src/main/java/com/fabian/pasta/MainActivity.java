@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navfavorites(MenuItem item){
-        Intent intent = new Intent(this, ActivityUnicode.class);
+        Intent intent = new Intent(this, MainActivity.class);
         this.startActivity(intent);
     }
 
