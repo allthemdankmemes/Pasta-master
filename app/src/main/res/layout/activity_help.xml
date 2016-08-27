@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#f5f5f5">
+    android:layout_height="match_parent">
 
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,23 +26,27 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:textSize="18sp"
-            android:text="You can add a new pasta by pressing this button. There is no limit to the length, the pasta can be as long as you want."
-            android:textIsSelectable="true"
-            style="@style/Base.TextAppearance.AppCompat.Body2"/>
+            android:text="@string/addInfo"
+            android:textIsSelectable="true" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/addBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right"
-            android:layout_marginBottom="32dp"
-            android:layout_marginRight="16dp"
-            android:src="@drawable/ic_add_white_24dp"
-            app:layout_behavior="com.fabian.pasta.ScrollAwareFABBehavior"
-            app:layout_anchor="@id/list_todo"
-            app:layout_anchorGravity="bottom|right|end"
-            app:fabSize="mini"
-            android:background="@drawable/ripple_effect" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/addBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_alignParentRight="true"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_add_white_24dp"
+                app:layout_behavior="com.fabian.pasta.ScrollAwareFABBehavior"
+                app:layout_anchor="@id/list_todo"
+                app:layout_anchorGravity="bottom|right|end"
+                app:fabSize="mini"
+                android:background="@drawable/ripple_effect" />
+
+        </RelativeLayout>
 
 
         </android.support.v7.widget.CardView>
@@ -68,9 +71,8 @@
             android:layout_marginTop="24dp"
             android:layout_marginBottom="16dp"
             android:textSize="18sp"
-            android:text="You can delete a pasta by pressing this button."
-            android:textIsSelectable="true"
-            style="@style/Base.TextAppearance.AppCompat.Body2"/>
+            android:text="@string/deleteInfo"
+            android:textIsSelectable="true" />
 
         <TextView
             android:id="@+id/help3"
@@ -83,9 +85,8 @@
             android:layout_marginTop="108dp"
             android:layout_marginBottom="16dp"
             android:textSize="18sp"
-            android:text="You can copy a pasta by pressing this button."
-            android:textIsSelectable="true"
-            style="@style/Base.TextAppearance.AppCompat.Body2"/>
+            android:text="@string/copyInfo"
+            android:textIsSelectable="true"/>
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/pasta_delete"

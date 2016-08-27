@@ -1,10 +1,7 @@
 package com.fabian.pasta;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 /**
  * Created by fabian on 27.08.16.

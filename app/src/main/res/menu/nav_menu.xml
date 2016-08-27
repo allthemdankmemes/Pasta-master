@@ -4,74 +4,74 @@
         <item
             android:id="@+id/nav_favorites"
             android:icon="@drawable/ic_stars_white_24dp"
-            android:title="Favorites"
+            android:title="@string/favorites"
             android:onClick="navfavorites"/>
         <item
             android:id="@+id/nav_hot"
             android:icon="@drawable/ic_whatshot_white_24dp"
-            android:title="Hot"
+            android:title="@string/hot"
             android:onClick="navhot"/>
         <item
             android:id="@+id/nav_unicodes"
             android:icon="@drawable/ic_format_underlined_white_24dp"
-            android:title="Unicodes" />
+            android:title="@string/unicodes" />
     </group>
-    <item android:title="Mood/Reactions"
+    <item android:title="@string/moodAndReactions"
         android:icon="@drawable/ic_insert_emoticon_white_24dp">
         <menu>
             <item
                 android:icon="@drawable/ic_sentiment_satisfied_white_24dp"
-                android:title="Positive" />
+                android:title="@string/positive" />
             <item
                 android:icon="@drawable/ic_sentiment_neutral_white_24dp"
-                android:title="Neutral" />
+                android:title="@string/neutral" />
             <item
                 android:icon="@drawable/ic_sentiment_dissatisfied_white_24dp"
-                android:title="Negative" />
+                android:title="@string/negative" />
             <item
                 android:icon="@drawable/ic_thumb_up_white_24dp"
-                android:title="Upvote" />
+                android:title="@string/upvote" />
             <item
                 android:icon="@drawable/ic_thumb_down_white_24dp"
-                android:title="Downvote" />
+                android:title="@string/downvote" />
             <item
                 android:icon="@drawable/ic_pan_tool_white_24dp"
-                android:title="Stop" />
+                android:title="@string/stop" />
         </menu>
     </item>
-    <item android:title="Specific Topics"
+    <item android:title="@string/specificTopics"
         android:icon="@drawable/ic_important_devices_white_24dp">
         <menu>
             <item
                 android:icon="@drawable/ic_face_white_24dp"
-                android:title="Identification" />
+                android:title="@string/identification" />
             <item
                 android:icon="@drawable/ic_cake_white_24dp"
-                android:title="Congratulations" />
+                android:title="@string/congratulations" />
             <item
                 android:icon="@drawable/ic_record_voice_over_white_24dp"
-                android:title="Shitposts" />
+                android:title="@string/shitposts" />
             <item
                 android:icon="@drawable/ic_child_care_white_24dp"
-                android:title="Trolls" />
+                android:title="@string/trolls" />
             <item
                 android:icon="@drawable/ic_favorite_white_24dp"
-                android:title="Love" />
+                android:title="@string/love" />
             <item
                 android:icon="@drawable/ic_videogame_asset_white_24dp"
-                android:title="Games" />
+                android:title="@string/games" />
             <item
                 android:icon="@drawable/ic_pets_white_24dp"
-                android:title="Animals" />
+                android:title="@string/animals" />
             <item
                 android:icon="@drawable/ic_note_white_24dp"
-                android:title="Stories" />
+                android:title="@string/stories" />
             <item
                 android:icon="@drawable/ic_motorcycle_white_24dp"
-                android:title="Badass" />
+                android:title="@string/badass" />
             <item
                 android:icon="@drawable/ic_bug_report_white_24dp"
-                android:title="Nerdy" />
+                android:title="@string/nerdy" />
         </menu>
     </item>
 </menu>

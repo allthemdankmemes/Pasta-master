@@ -8,11 +8,14 @@
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/day"
+        android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         card_view:cardCornerRadius="4dp">
 
         <TextView
@@ -26,9 +29,8 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:textSize="18sp"
-            android:text="Change the design of the app, coming soon™ "
-            android:textIsSelectable="true"
-            style="@style/Base.TextAppearance.AppCompat.Body2"/>
+            android:text="@string/themeInfo"
+            android:textIsSelectable="true" />
 
     </android.support.v7.widget.CardView>
 
@@ -37,10 +39,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:layout_below="@id/day"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/info"
         card_view:cardCornerRadius="4dp"
-        android:id="@+id/view">
+        android:id="@+id/nightTheme">
 
         <TextView
             android:id="@+id/night"
@@ -53,9 +58,8 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:textSize="18sp"
-            android:text="Light Green"
-            android:textIsSelectable="true"
-            style="@style/Base.TextAppearance.AppCompat.Body2"/>
+            android:text="@string/nightMode"
+            android:textIsSelectable="true" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/pasta_delete"
@@ -67,8 +71,53 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:src="@drawable/ic_format_paint_white_24dp"
-            android:onClick="appThemeGreen"
+            android:src="@drawable/ic_brightness_2_white_24dp"
+            android:onClick="appThemeNight"
+            app:fabSize="mini"
+            app:backgroundTint="#8bc34A"
+            android:background="@drawable/ripple_effect" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/nightTheme"
+        card_view:cardCornerRadius="4dp"
+        android:id="@+id/dayTheme">
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:text="@string/dayMode"
+            android:textIsSelectable="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/day_theme"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_wb_sunny_white_24dp"
+            android:onClick="appThemeDay"
             app:fabSize="mini"
             app:backgroundTint="#8bc34A"
             android:background="@drawable/ripple_effect" />

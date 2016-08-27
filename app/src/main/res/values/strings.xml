@@ -7,11 +7,44 @@
     <string name="settings">Settings</string>
     <string name="help">Help</string>
     <string name="theme">Customization</string>
-    <string name="backup">Backup</string>
-    <string name="advanced"></string>
+    <string name="backup" translatable="false">Backup</string>
+    <string name="advanced" translatable="false"></string>
+    <string name="themeInfo">More themes coming soon™</string>
+    <string name="nightMode">Night Mode</string>
+    <string name="dayMode">Day Mode</string>
+    <string name="copyInfo">You can copy a pasta by pressing this button.</string>
+    <string name="deleteInfo">You can delete a pasta by pressing this button.</string>
+    <string name="addInfo">You can add a new pasta by pressing this button.</string>
+    <string name="backupInfo">Import and Export your pastas, coming soon™</string>
+    <string name="favorites">Favorites</string>
+    <string name="hot">Hot</string>
+    <string name="unicodes">Unicodes</string>
+    <string name="moodAndReactions">Mood/Reactions</string>
+    <string name="positive">Positive</string>
+    <string name="neutral">Neutral</string>
+    <string name="negative">Negative</string>
+    <string name="upvote">Upvote</string>
+    <string name="downvote">Downvote</string>
+    <string name="stop">Stop</string>
+    <string name="specificTopics">SpecificTopics</string>
+    <string name="identification">Identification</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="shitposts">Shitposts</string>
+    <string name="trolls">Trolls</string>
+    <string name="love">Love</string>
+    <string name="games">Games</string>
+    <string name="animals">Animals</string>
+    <string name="stories">Stories</string>
+    <string name="badass">Badass</string>
+    <string name="nerdy">Nerdy</string>
+
+
+
 
 
     <string name="lightGreenApplied">Design changed to Light Green</string>
+    <string name="nightThemeApplied">Night Mode set!</string>
+    <string name="dayThemeApplied">Day Mode set!</string>
 
 
     <string name="copy0">Yummy!</string>
