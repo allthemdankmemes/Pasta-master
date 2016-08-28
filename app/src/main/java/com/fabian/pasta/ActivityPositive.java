@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.Toast;
 
 /**
- * Created by fabian on 26.08.16.
+ * Created by fabian on 28.08.16.
  */
-public class ActivityTheme extends Activity{
+public class ActivityPositive extends Activity{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

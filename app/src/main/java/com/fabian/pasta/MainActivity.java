@@ -16,6 +16,7 @@ import android.support.v7.app.AppCompatDelegate;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -164,13 +165,81 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navhot(MenuItem item){
-        Intent intent = new Intent(this, ActivityHot.class);
-        this.startActivity(intent);
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+        Intent intent2 = new Intent(this, ActivityPositive.class);
+        this.startActivity(intent2);
+        return;
     }
 
     public void navfavorites(MenuItem item){
-        Intent intent = new Intent(this, MainActivity.class);
-        this.startActivity(intent);
+    }
+
+    public void navunicodes(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navpositive(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navneutral(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navnegative(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navupvote(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navdownvote(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navstop(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navidentification(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navcongratulations(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navshitposts(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navtrolls(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navlove(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navgames(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navanimals(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navstories(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navbadass(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
+    }
+
+    public void navnerdy(MenuItem item){
+        Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
     }
 
 }

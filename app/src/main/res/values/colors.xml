@@ -6,4 +6,19 @@
     <color name="colorPrimaryDarkGreen">#689f38</color>
     <color name="colorAccent">#FFC107</color>
     <color name="colorAccentGreen">#ef5350</color>
+    <item type="color" name="colorNavigationBar">#010103</item>
+
+    <item type="color" name="transparent">#0000</item>
+    <item type="color" name="amberPrimary">#ffc107</item>
+    <item type="color" name="amberPressed">#ffa000</item>
+    <item type="color" name="amberRipple">#f57c00</item>
+
+    <item type="color" name="whitePrimary">#FAFAFA</item>
+    <item type="color" name="whitePressed">#e0e0e0</item>
+    <item type="color" name="whiteRipple">#EEE</item>
+
+    <item type="color" name="blackPrimary">#212121</item>
+    <item type="color" name="greyPrimary">#9e9e9e</item>
+
+    <item type="color" name="shadow">#AA212121</item>
 </resources>

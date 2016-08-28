@@ -8,8 +8,8 @@ android {
         applicationId "com.fabian.pasta"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 1
-        versionName "0.2"
+        versionCode 3
+        versionName "0.0.3"
     }
     buildTypes {
         release {
@@ -26,4 +26,5 @@ dependencies {
     compile 'com.android.support:design:24.2.0'
     compile 'com.android.support:recyclerview-v7:24.2.0'
     compile 'com.android.support:cardview-v7:24.2.0'
+    compile 'com.github.clans:fab:1.6.4'
 }

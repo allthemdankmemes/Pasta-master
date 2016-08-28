@@ -14,29 +14,35 @@
         <item
             android:id="@+id/nav_unicodes"
             android:icon="@drawable/ic_format_underlined_white_24dp"
-            android:title="@string/unicodes" />
-    </group>
+            android:title="@string/unicodes"
+            android:onClick="navunicodes"/>
     <item android:title="@string/moodAndReactions"
         android:icon="@drawable/ic_insert_emoticon_white_24dp">
         <menu>
             <item
                 android:icon="@drawable/ic_sentiment_satisfied_white_24dp"
-                android:title="@string/positive" />
+                android:title="@string/positive"
+                android:onClick="navpositive" />
             <item
                 android:icon="@drawable/ic_sentiment_neutral_white_24dp"
-                android:title="@string/neutral" />
+                android:title="@string/neutral"
+                android:onClick="navneutral"/>
             <item
                 android:icon="@drawable/ic_sentiment_dissatisfied_white_24dp"
-                android:title="@string/negative" />
+                android:title="@string/negative"
+                android:onClick="navnegative"/>
             <item
                 android:icon="@drawable/ic_thumb_up_white_24dp"
-                android:title="@string/upvote" />
+                android:title="@string/upvote"
+                android:onClick="navupvote"/>
             <item
                 android:icon="@drawable/ic_thumb_down_white_24dp"
-                android:title="@string/downvote" />
+                android:title="@string/downvote"
+                android:onClick="navdownvote"/>
             <item
                 android:icon="@drawable/ic_pan_tool_white_24dp"
-                android:title="@string/stop" />
+                android:title="@string/stop"
+                android:onClick="navstop"/>
         </menu>
     </item>
     <item android:title="@string/specificTopics"
@@ -44,34 +50,45 @@
         <menu>
             <item
                 android:icon="@drawable/ic_face_white_24dp"
-                android:title="@string/identification" />
+                android:title="@string/identification"
+                android:onClick="navidentification"/>
             <item
                 android:icon="@drawable/ic_cake_white_24dp"
-                android:title="@string/congratulations" />
+                android:title="@string/congratulations"
+                android:onClick="navcongratulations"/>
             <item
                 android:icon="@drawable/ic_record_voice_over_white_24dp"
-                android:title="@string/shitposts" />
+                android:title="@string/shitposts"
+                android:onClick="navshitposts"/>
             <item
                 android:icon="@drawable/ic_child_care_white_24dp"
-                android:title="@string/trolls" />
+                android:title="@string/trolls"
+                android:onClick="navtrolls"/>
             <item
                 android:icon="@drawable/ic_favorite_white_24dp"
-                android:title="@string/love" />
+                android:title="@string/love"
+                android:onClick="navlove"/>
             <item
                 android:icon="@drawable/ic_videogame_asset_white_24dp"
-                android:title="@string/games" />
+                android:title="@string/games"
+                android:onClick="navgames"/>
             <item
                 android:icon="@drawable/ic_pets_white_24dp"
-                android:title="@string/animals" />
+                android:title="@string/animals"
+                android:onClick="navanimals"/>
             <item
                 android:icon="@drawable/ic_note_white_24dp"
-                android:title="@string/stories" />
+                android:title="@string/stories"
+                android:onClick="navstories"/>
             <item
                 android:icon="@drawable/ic_motorcycle_white_24dp"
-                android:title="@string/badass" />
+                android:title="@string/badass"
+                android:onClick="navbadass"/>
             <item
                 android:icon="@drawable/ic_bug_report_white_24dp"
-                android:title="@string/nerdy" />
+                android:title="@string/nerdy"
+                android:onClick="navnerdy"/>
         </menu>
     </item>
+    </group>
 </menu>
