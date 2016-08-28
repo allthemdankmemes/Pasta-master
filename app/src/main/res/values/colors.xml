@@ -6,7 +6,7 @@
     <color name="colorPrimaryDarkGreen">#689f38</color>
     <color name="colorAccent">#FFC107</color>
     <color name="colorAccentGreen">#ef5350</color>
-    <item type="color" name="colorNavigationBar">#010103</item>
+    <item type="color" name="colorNavigationBar">#673AB7</item>
 
     <item type="color" name="transparent">#0000</item>
     <item type="color" name="amberPrimary">#ffc107</item>

@@ -19,11 +19,6 @@ public class ActivityPositive extends Activity{
     }
 
     public void appThemeNight(View view) {
-        SharedPreferences theme = getSharedPreferences("themePrefs", Activity.MODE_PRIVATE);
-        SharedPreferences.Editor editor = theme.edit();
-        editor.putInt("LightGreen", 2);
-        editor.commit();
-        setTheme(R.style.AppTheme_Green);
 
         setNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 
@@ -31,11 +26,6 @@ public class ActivityPositive extends Activity{
     }
 
     public void appThemeDay(View view) {
-        SharedPreferences theme = getSharedPreferences("themePrefs", Activity.MODE_PRIVATE);
-        SharedPreferences.Editor editor = theme.edit();
-        editor.putInt("LightGreen", 2);
-        editor.commit();
-        setTheme(R.style.AppTheme_Green);
 
         setNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
