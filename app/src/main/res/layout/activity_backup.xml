@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:android.support.v7.appcompat="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/themepanel">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android.support.v7.appcompat:logo="@drawable/ic_restore_page_white_24dp"
+        android.support.v7.appcompat:subtitle="@string/backup"
+        android.support.v7.appcompat:subtitleTextColor="@color/whitePrimary"/>
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="8dp"
-        card_view:cardCornerRadius="4dp">
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        card_view:cardCornerRadius="4dp"
+        android:layout_below="@+id/my_toolbar">
 
         <TextView
-            android:id="@+id/help1"
+            android:id="@+id/daycard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -25,7 +46,6 @@
             android:text="@string/backupInfo"
             android:textIsSelectable="true" />
 
-
     </android.support.v7.widget.CardView>
 
     <TextView
@@ -33,7 +53,8 @@
         android:layout_height="wrap_content"
         android:text="version 0.0.3"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView">
     </TextView>
 
 </RelativeLayout>

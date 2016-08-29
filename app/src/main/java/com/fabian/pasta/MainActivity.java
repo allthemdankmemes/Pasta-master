@@ -19,6 +19,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -41,7 +42,6 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     private TaskDbHelper mHelper;
-    private TaskDbHot mHot;
     private ListView mTaskListView;
     private FloatingActionButton btn;
     private ArrayAdapter<String> mAdapter;
@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         mHelper = new TaskDbHelper(this);
         mTaskListView = (ListView) findViewById(R.id.list_todo);

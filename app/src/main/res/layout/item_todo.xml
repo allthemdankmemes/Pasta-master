@@ -33,7 +33,7 @@
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/addBtn"
-            style="@style/fab_add"
+            style="@style/fab_mini"
             app:fab_size="mini"
             android:src="@drawable/ic_delete_white_24dp"
             android:layout_width="16dp"
@@ -48,7 +48,7 @@
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/pasta_copy"
-            style="@style/fab_add"
+            style="@style/fab_mini"
             app:fab_size="mini"
             android:src="@drawable/ic_restaurant_menu_white_24dp"
             android:layout_width="16dp"
