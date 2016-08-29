@@ -28,9 +28,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.fabian.pasta.db.TaskContract;
 import com.fabian.pasta.db.TaskDbHelper;
+import com.fabian.pasta.db.TaskDbHot;
 import com.github.clans.fab.FloatingActionButton;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -41,6 +41,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     private TaskDbHelper mHelper;
+    private TaskDbHot mHot;
     private ListView mTaskListView;
     private FloatingActionButton btn;
     private ArrayAdapter<String> mAdapter;
@@ -224,9 +225,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void navhot(MenuItem item) {
         Toast.makeText(getApplicationContext(), getString(R.string.notworking), Toast.LENGTH_SHORT).show();
-        Intent intent2 = new Intent(this, ActivityPositive.class);
-        this.startActivity(intent2);
-        return;
     }
 
     public void navfavorites(MenuItem item) {

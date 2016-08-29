@@ -14,7 +14,7 @@ public class TaskDbHelperHot extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase dbhot) {
-        String createTable = "CREATE TABLE " + TaskContract.TaskEntry.TABLE + " ( " +
+        String createTable = "CREATE TABLE2 " + TaskContractHot.TaskEntryHot.TABLE2 + " ( " +
                 TaskContractHot.TaskEntryHot._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 TaskContractHot.TaskEntryHot.COL_TASK_TITLE2 + " TEXT NOT NULL);";
 

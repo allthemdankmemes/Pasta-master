@@ -17,7 +17,10 @@
     <item type="color" name="whitePressed">#e0e0e0</item>
     <item type="color" name="whiteRipple">#EEE</item>
 
-    <item type="color" name="blackPrimary">#212121</item>
+    <item type="color" name="black">#212121</item>
+    <item type="color" name="blackPressed">#000000</item>
+    <item type="color" name="blackRipple">#616161</item>
+
     <item type="color" name="greyPrimary">#9e9e9e</item>
 
     <item type="color" name="shadow">#AA212121</item>
