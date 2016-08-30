@@ -40,7 +40,7 @@
     <string name="copyInfo">Kopiere eine Pasta, indem du auf dieses Icon tippst.</string>
     <string name="themeInfo">Mehr Themen kommen bald™</string>
     <string name="addInfo">Füge eine neue Pasta hinzu, indem du auf dieses Icon tippst.</string>
-    <string name="backupInfo">Importiere und Exportiere deine Pastas, kommt bald™</string>
+    <string name="backupInfo">Importiere und exportiere deine Pastas. Das Backup wird im internen Speicher deines Smartphone mit dem Namen \"pastabackup.db\" gespeichert. Wenn du Pastas importieren möchtest, sollte dort diese Datei vorhanden sein. Achtung! Wenn Pastas importiert werden, werden alle vorhandenen Pastas gelöscht!</string>
     <string name="downvote">Widerspruch</string>
     <string name="favorites">Favoriten</string>
     <string name="games">Spiele</string>
@@ -63,4 +63,8 @@
     <string name="congratulations">Glückwünsche</string>
     <string name="animals">Tiere</string>
     <string name="notworking">NIcht verfügbar</string>
+    <string name="backupToast">Pastas erfolgreich gespeichert!</string>
+    <string name="export">Exportiere deine Pastas.</string>
+    <string name="restore">Importiere deine Pastas.</string>
+    <string name="restoreToast">Pastas erfolgreich wiederhergestellt!</string>
 </resources>

@@ -17,6 +17,14 @@
     <item type="color" name="whitePressed">#e0e0e0</item>
     <item type="color" name="whiteRipple">#EEE</item>
 
+    <item type="color" name="indigoPrimary">#3f51b5</item>
+    <item type="color" name="indigoPressed">#303f9f</item>
+    <item type="color" name="indigoRipple">#1a237e</item>
+
+    <item type="color" name="greenPrimary">#4caf50</item>
+    <item type="color" name="greenPressed">#388e3c</item>
+    <item type="color" name="greenRipple">#1b5e20</item>
+
     <item type="color" name="black">#212121</item>
     <item type="color" name="blackPressed">#000000</item>
     <item type="color" name="blackRipple">#616161</item>

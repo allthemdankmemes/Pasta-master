@@ -15,7 +15,7 @@
     <string name="copyInfo">You can copy a pasta by pressing this button.</string>
     <string name="deleteInfo">You can delete a pasta by pressing this button.</string>
     <string name="addInfo">You can add a new pasta by pressing this button.</string>
-    <string name="backupInfo">Import and Export your pastas, coming soon™</string>
+    <string name="backupInfo">Import and export your pastas. The backup will be saved on your phone\'s internal storage called \"pastabackup.db\". If you want to import a database, this backup file should be present on your smartphone. Warning! When you restore, all your current pastas will be deleted!.</string>
     <string name="favorites">Favorites</string>
     <string name="hot">Hot</string>
     <string name="unicodes">Unicodes</string>
@@ -38,10 +38,11 @@
     <string name="badass">Badass</string>
     <string name="nerdy">Nerdy</string>
     <string name="notworking">Not available</string>
-    <string name="appVersion">version 0.0.3</string>
-
-
-
+    <string name="appVersion">version 0.0.4</string>
+    <string name="export">Export your pastas.</string>
+    <string name="restore">Import your pastas.</string>
+    <string name="backupToast">Pastas succesfully saved!</string>
+    <string name="restoreToast">Pastas succesfully restored!</string>
 
 
     <string name="lightGreenApplied">Design changed to Light Green</string>

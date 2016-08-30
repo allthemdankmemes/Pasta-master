@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.fabian.pasta"
         minSdkVersion 21
-        targetSdkVersion 24
+        targetSdkVersion 22
         versionCode 3
         versionName "0.0.3"
     }
