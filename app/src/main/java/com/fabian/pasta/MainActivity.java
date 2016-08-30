@@ -146,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
                 TaskContract.TaskEntry.COL_TASK_TITLE + " = ?",
                 new String[]{task});
         db.close();
+        Toast.makeText(getApplicationContext(), getString(R.string.delete), Toast.LENGTH_SHORT).show();
         updateUI();
     }
 

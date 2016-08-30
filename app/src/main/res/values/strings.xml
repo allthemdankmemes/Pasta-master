@@ -43,6 +43,7 @@
     <string name="restore">Import your pastas.</string>
     <string name="backupToast">Pastas succesfully saved!</string>
     <string name="restoreToast">Pastas succesfully restored!</string>
+    <string name="delete">Pasta deleted!</string>
 
 
     <string name="lightGreenApplied">Design changed to Light Green</string>
