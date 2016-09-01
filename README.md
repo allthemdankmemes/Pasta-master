@@ -1,6 +1,6 @@
 # Pasta-master
 
-Pasta is an android app that gives the user an easy way to manage copypastas. You can add copypastas and copy them on one click.
+Pasta is an android app that gives the user an easy way to manage copypastas. You can add copypastas and copy them on one click. If you use this code, cite this project and include the license in your app.
 
 
 # LICENSE
