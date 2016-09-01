@@ -5,6 +5,12 @@ Pasta is an android app that gives the user an easy way to manage copypastas. Yo
 
 # LICENSE
 
+If you use DragItemRecyclerView code in your application please inform the author about it (email: woxthebox@gmail.com) like this:
+
+    Subject: DragListView usage notification
+    Text: I use DragListView in {application_name} - {http://link_to_google_play}. I [allow | don't allow] you to mention my app in section "Applications using DragListView" on GitHub.
+
+
 Copyright 2016 Fabian Baldeau
 
 Licensed under the Apache License, Version 2.0 (the "License");
