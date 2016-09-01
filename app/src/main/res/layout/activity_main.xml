@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer">
 
-    <ListView
+    <com.fabian.pasta.ListViewAdapter
         android:id="@+id/list_todo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="#00000000"></ListView>
+        android:divider="#00000000"
+        android:scrollbars="none">
+    </com.fabian.pasta.ListViewAdapter>
 
     <RelativeLayout
         android:id="@+id/fab"
