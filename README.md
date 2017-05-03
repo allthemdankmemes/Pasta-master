@@ -5,7 +5,7 @@ Pasta is an android app that gives the user an easy way to manage copypastas. Yo
 
 # LICENSE
 
-If you use this code in your application, please inform the author about it (email: allthemdankmemes@gmail.com) like this:
+If you use this code in your application, please inform the author about it (email: allthemdank@gmail.com) like this:
 
     Subject: Pasta-code usage notification
     Text: I use code from Pasta in {application_name} - {http://link_to_google_play}. I [allow | don't allow] you to mention my app in section "Applications built from Pasta" on GitHub.
