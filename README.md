@@ -1,4 +1,4 @@
-# Pasta-master
+# Pasta-master (deprecated)
 
 Pasta is an android app that gives the user an easy way to manage copypastas. You can add copypastas and copy them in one click. If you use this code, cite this project and include the license in your app.
 
